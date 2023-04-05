@@ -175,3 +175,16 @@ function rectangleVec(v2LT, width, height) {
     v2LT[1] + height,
   ];
 }
+
+export {
+  createShader,
+  createProgram,
+  createProgramWithShaderSrc,
+  resize,
+  resizeCanvas,
+  resizeCanvasAndSetViewport,
+  resizeCanvasConsiderRatio,
+  onResize,
+  Random,
+  rectangleVec,
+};

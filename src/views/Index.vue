@@ -8,12 +8,12 @@
       <div class="flex gap-4 justify-center relative">
         <img
           src="@/assets/soft-drinks-colorful.png"
-          class="h-[450px] w-[450px]"
+          class="xl:h-[450px] xl:w-[450px] h-[250px] w-[250px]"
           alt="Soda Fountain"
         />
         <img
           src="@/assets/soft-drinks.png"
-          class="h-[450px] w-[450px] absolute"
+          class="xl:h-[450px] xl:w-[450px] h-[250px] w-[250px] absolute"
           alt="Soda Fountain"
         />
       </div>

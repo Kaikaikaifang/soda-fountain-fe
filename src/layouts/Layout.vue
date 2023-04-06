@@ -1,7 +1,10 @@
 <template>
-  <div class="h-screen w-full flex flex-col">
-    <header class="container h-10">header</header>
-    <div class="container flex-grow"><slot /></div>
+  <div class="h-screen w-full flex flex-col pt-14 justify-center items-center">
+    <div
+      class="flex-grow w-full py-6 flex flex-col justify-center items-center"
+    >
+      <slot />
+    </div>
   </div>
 </template>
 

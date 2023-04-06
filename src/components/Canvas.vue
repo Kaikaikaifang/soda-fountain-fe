@@ -42,7 +42,6 @@ var fShaderSrc = `#version 300 es
  * 主函数
  */
 function main() {
-  console.log(canvas.value);
   const gl = canvas.value.getContext("webgl2");
   if (!gl) return;
 
@@ -95,7 +94,6 @@ function setColor(gl, buffer) {
   for (let i = 0; i < 6; i++) {
     data = data.concat([...Random.randomUint8Array(256, 3), 255]);
   }
-  console.log(data);
   gl.bufferData(gl.ARRAY_BUFFER, new Uint8Array(data), gl.STATIC_DRAW);
 }
 
